@@ -1,8 +1,8 @@
 <component name="libraryTable">
   <library name="RFIDAPI3Library-unspecified">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.android/build-cache/46ae0ed45d94d46b17d97511d60c047b7fdc72bd/output/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.android/build-cache/46ae0ed45d94d46b17d97511d60c047b7fdc72bd/output/res" />
+      <root url="file://$USER_HOME$/.android/build-cache/3992f96359eb8c5a5a05ad7b90393fb44b9c91e1/output/res" />
+      <root url="jar://$USER_HOME$/.android/build-cache/3992f96359eb8c5a5a05ad7b90393fb44b9c91e1/output/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

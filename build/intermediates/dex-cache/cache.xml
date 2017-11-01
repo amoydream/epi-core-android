@@ -3,21 +3,30 @@
 
     <item
         is-multidex="true"
-        jar="/Users/timothytosh/Development/Projects/epi/latest-android-source/EPICore/epi-core-app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jar="/Users/timothytosh/.android/build-cache/3992f96359eb8c5a5a05ad7b90393fb44b9c91e1/output/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="26.0.1"
-        sha1="7e49ef3d806f48ab85dadefa97052def5a4ad1e7">
-        <dex dex="/Users/timothytosh/Development/Projects/epi/latest-android-source/EPICore/epi-core-app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_5cf84e6c3bab91a80cd89809cc922ef9c3bf85ef/classes.dex" />
+        sha1="dfdc36ed04fcc8edb9b9753a1f17e146dcba53a5">
+        <dex dex="/Users/timothytosh/Development/Projects/epi/epi-core-android/epi-core-app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_91e9b8d874b01ef4c1c147b89a1981c51650e37f/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/timothytosh/Development/Projects/epi/latest-android-source/EPICore/epi-core-app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jar="/Users/timothytosh/Development/Projects/epi/epi-core-android/epi-core-app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="26.0.1"
         sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
-        <dex dex="/Users/timothytosh/Development/Projects/epi/latest-android-source/EPICore/epi-core-app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_41afce113500071a7586a8978e063e5b215df6bf/classes.dex" />
+        <dex dex="/Users/timothytosh/Development/Projects/epi/epi-core-android/epi-core-app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_6ca77e9da0d62bfb4dcb31321b75d7483f328c10/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/timothytosh/Development/Projects/epi/epi-core-android/epi-core-app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="1c01748ed34326fd60ed0f3a68d0e672de935c9f">
+        <dex dex="/Users/timothytosh/Development/Projects/epi/epi-core-android/epi-core-app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_0216fe4d2835304ce8ba53f7b9ac94e7c448ac00/classes.dex" />
     </item>
 
 </items>
