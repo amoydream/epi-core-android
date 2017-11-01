@@ -1,0 +1,47 @@
+apply plugin: 'com.android.library'
+
+android {
+
+    //compileSdkVersion 24
+    //buildToolsVersion "25.0.1"
+    compileSdkVersion 26
+    buildToolsVersion '25.0.0'
+
+    defaultConfig {
+        /*applicationId 'com.zebra.rfidreaderAPI.demo'*/
+        minSdkVersion 19
+        targetSdkVersion 19
+        versionCode 22
+        versionName "1.0.3.22"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+
+            libraryVariants.all { variant ->
+                variant.outputs.each { output ->
+                    output.outputFile = new File(
+                            output.outputFile.parent,
+                            output.outputFile.name.replace("app-release.apk", "Zebra_RFID_Mobile_API-"+defaultConfig.versionName+".apk"))
+                }
+            }
+        }
+    }
+
+    sourceSets {
+
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_7
+        targetCompatibility JavaVersion.VERSION_1_7
+    }
+    productFlavors {
+    }
+}
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile 'com.android.support:appcompat-v7:26.+'
+    compile 'com.android.support:design:26.+'
+    compile project(':RFIDAPI3Library')
+}

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/EPICore.iml" filepath="$PROJECT_DIR$/EPICore.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RFIDAPI3Library/RFIDAPI3Library.iml" filepath="$PROJECT_DIR$/RFIDAPI3Library/RFIDAPI3Library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/epi-core-app/epi-core-app.iml" filepath="$PROJECT_DIR$/epi-core-app/epi-core-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zebra-app/zebra-app.iml" filepath="$PROJECT_DIR$/zebra-app/zebra-app.iml" />
+    </modules>
+  </component>
+</project>
